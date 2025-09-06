@@ -57,10 +57,7 @@ button {
   position: sticky;
   top: 0;
   z-index: 3;
-<<<<<<< HEAD
   
-=======
->>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
 }
 .nav-container {
   display: flex;
@@ -242,11 +239,8 @@ button {
   cursor: pointer;
 }
 .image-container {
-<<<<<<< HEAD
   width: 250px;
   aspect-ratio: 1/1;
-=======
->>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -262,11 +256,7 @@ button {
 .Product-img {
   text-align: center;
   width: 100%;
-<<<<<<< HEAD
   border-radius: 8px 8px 0 0;
-=======
-  aspect-ratio: 1/1;
->>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
   object-fit: cover;
   margin-bottom: 8px;
 }
@@ -287,10 +277,7 @@ button {
 }
 .footer {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: repeat(4, 1fr);
-=======
->>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
   justify-content: space-between;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -317,7 +304,6 @@ hr {
   text-decoration: none;
   color: black;
 }
-<<<<<<< HEAD
 @media (max-width:725px) {
   .search-bar {
     width: 100px;
@@ -381,87 +367,3 @@ hr {
   }
  
 }
-=======
-
-@media (max-width: 1000px) {
-  .carosal-container {
-    height: 400px;
-  }
-
-  .product-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width: 850px) {
-  .carosal-container {
-    height: 400px;
-  }
-}
-
-@media (max-width: 750px) {
-  .footer {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 720px) {
-  .search-bar {
-    width: 125px;
-    height: 16px;
-    padding: 6px 28px;
-    border-radius: 6px;
-    border: 2px solid rgb(105, 105, 105);
-    font-size: 14px;
-  }
-
-  .searching-img {
-    width: 15px;
-    background-color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 8px;
-    border-radius: 6px;
-    transform: translateY(-50%);
-  }
-
-  .nav-container {
-    padding: 0 8px;
-  }
-
-  .nav-btn-container {
-    gap: 8px;
-  }
-
-  .logo-name {
-    gap: 5px;
-  }
-}
-
-@media (max-width: 600px) {
-  .product-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 560px) {
-  .search-bar,
-  .searching-img {
-    display: none;
-  }
-
-  .carosal-container {
-    height: 300px;
-  }
-}
-
-@media (max-width: 450px) {
-  .product-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .footer{
-    grid-template-columns: 1fr;
-    gap:10px;
-  }
-}
->>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
