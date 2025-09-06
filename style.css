@@ -240,7 +240,6 @@ button {
 }
 .image-container {
   width: 250px;
-  aspect-ratio: 1/1;
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -255,7 +254,8 @@ button {
 
 .Product-img {
   text-align: center;
-  width: 100%;
+  width: 250px;
+  height: 250px;
   border-radius: 8px 8px 0 0;
   object-fit: cover;
   margin-bottom: 8px;
