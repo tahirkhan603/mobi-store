@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   height: 100%;
 }
 html {
@@ -53,11 +53,14 @@ button {
   border-radius: 6px;
   transform: translateY(-50%);
 }
-.nav-bar{
+.nav-bar {
   position: sticky;
   top: 0;
   z-index: 3;
-
+<<<<<<< HEAD
+  
+=======
+>>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
 }
 .nav-container {
   display: flex;
@@ -207,7 +210,9 @@ button {
 }
 .carosal-image {
   width: 100%;
-  height: 500px;
+  height: 100%;
+  align-self: 16/9;
+  object-fit: cover;
 }
 .forward-arrow-btn {
   position: absolute;
@@ -237,12 +242,16 @@ button {
   cursor: pointer;
 }
 .image-container {
-  min-width: 250px;
-  min-height: 300px;
+<<<<<<< HEAD
+  width: 250px;
+  aspect-ratio: 1/1;
+=======
+>>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
   display: flex;
   flex-direction: column;
   justify-self: center;
   border-radius: 8px;
+  overflow: hidden;
   border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .image-container:hover {
@@ -252,9 +261,12 @@ button {
 
 .Product-img {
   text-align: center;
-  width: 250px;
-  height: 250px;
+  width: 100%;
+<<<<<<< HEAD
   border-radius: 8px 8px 0 0;
+=======
+  aspect-ratio: 1/1;
+>>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
   object-fit: cover;
   margin-bottom: 8px;
 }
@@ -274,11 +286,19 @@ button {
   margin-top: 16px;
 }
 .footer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+<<<<<<< HEAD
+  grid-template-columns: repeat(4, 1fr);
+=======
+>>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
   justify-content: space-between;
-  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
 }
+.grid-footer-item {
+  padding: 12px;
+  justify-items: center;
+}
+
 .footer-bottom {
   text-align: center;
   padding: 20px;
@@ -297,3 +317,151 @@ hr {
   text-decoration: none;
   color: black;
 }
+<<<<<<< HEAD
+@media (max-width:725px) {
+  .search-bar {
+    width: 100px;
+    height: 16px;
+  }
+  .searching-img {
+  width: 20px;
+}
+.carosal-container{
+  object-fit: contain;
+}
+}
+@media (max-width:612px) {
+  .search-bar {
+    display: none;
+}
+.searching-img {
+  display: none;
+}
+.carosal-container{
+  object-fit: cover;
+}
+}
+
+@media (max-width:1338px) {
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+}
+@media (max-width:1079px) {
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+}
+@media (max-width:809px) {
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+}
+@media (max-width:545px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:396px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+ 
+}
+=======
+
+@media (max-width: 1000px) {
+  .carosal-container {
+    height: 400px;
+  }
+
+  .product-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 850px) {
+  .carosal-container {
+    height: 400px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .search-bar {
+    width: 125px;
+    height: 16px;
+    padding: 6px 28px;
+    border-radius: 6px;
+    border: 2px solid rgb(105, 105, 105);
+    font-size: 14px;
+  }
+
+  .searching-img {
+    width: 15px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    border-radius: 6px;
+    transform: translateY(-50%);
+  }
+
+  .nav-container {
+    padding: 0 8px;
+  }
+
+  .nav-btn-container {
+    gap: 8px;
+  }
+
+  .logo-name {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .search-bar,
+  .searching-img {
+    display: none;
+  }
+
+  .carosal-container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer{
+    grid-template-columns: 1fr;
+    gap:10px;
+  }
+}
+>>>>>>> 2740dd2633f56fa5098ec83ecdec478d8b34a2e3
